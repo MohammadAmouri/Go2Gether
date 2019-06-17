@@ -9,21 +9,40 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".UserType">
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".MainActivity" />
-        <activity android:name=".tutorialClientActivity_1" />
-        <activity android:name=".tutorialClientActivity_2" />
-        <activity android:name=".tutorialClientActivity_3" />
-        <activity android:name=".tutorialDriverActivity_1" />
-        <activity android:name=".tutorialDriverActivity_2" />
-        <activity android:name=".tutorialDriverActivity_3"></activity>
+        <activity android:name=".ResetPasswordActivity" />
+        <activity
+            android:name=".tutorialClientActivity_1"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".tutorialClientActivity_2"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".tutorialClientActivity_3"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".tutorialDriverActivity_1"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".tutorialDriverActivity_2"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".tutorialDriverActivity_3"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".UserType"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".RegisterClientActivity" />
+        <activity android:name=".RegisterDriverActivity" />
+        <activity android:name=".LoginActivity" />
     </application>
 
 </manifest>
